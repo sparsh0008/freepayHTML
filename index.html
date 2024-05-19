@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Display</title>
+    <style>
+        /* Add CSS styles for your image containers */
+        .image-container {
+            display: flex; /* Use flexbox to control layout */
+            flex-direction: row; /* Arrange images horizontally */
+            margin-bottom: 10px; /* Add space between images */
+        }
+        .image-container img {
+            max-height: 140px; /* Set max height */
+            object-fit: cover; /* Adjust image size to fit container */
+            margin-right: 10px; /* Add space between images */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <!-- Replace 'images/ReserveQueLOGO.png' with the path to your second image -->
+        <img src="images/ReserveQueLOGO.png" alt="Image 2" style="width: 230px;">
+        
+        <!-- Replace 'images/Untitled design.png' with the path to your first image -->
+        <img src="images/Untitled design.png" alt="Image 1" style="width: 1110px;">
+
+    </div>
+</body>
+</html>

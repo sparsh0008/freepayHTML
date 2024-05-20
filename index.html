@@ -6,15 +6,16 @@
     <title>Image Display</title>
     <style>
         /* Add CSS styles for your image containers */
-        .image-container {
+        .image-container1 {
             display: flex; /* Use flexbox to control layout */
             flex-direction: row; /* Arrange images horizontally */
             margin-bottom: 10px; /* Add space between images */
         }
-        .image-container img {
+        .image-container1 img {
             max-height: 140px; /* Set max height */
             object-fit: cover; /* Adjust image size to fit container */
             margin-right: 10px; /* Add space between images */
+            max-width: 82%; /* Ensure images don't exceed container width */
         }
         body {
             overflow: hidden; /* Disable scrolling */
@@ -22,12 +23,12 @@
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <!-- Replace 'images/ReserveQueLOGO.png' with the path to your second image -->
-        <img src="images/ReserveQueLOGO.png" alt="Image 2" style="max-width: 20%;">
+    <div class="image-container1">
+        <!-- Replace 'images/ReserveQueLOGO.png' with the path to your first image -->
+        <img src="images/ReserveQueLOGO.png" alt="Image 1">
         
-        <!-- Replace 'images/Untitled design.png' with the path to your first image -->
-        <img src="images/Untitled design.png" alt="Image 1" style="max-width: 40%;">
+        <!-- Replace 'images/Untitled design.png' with the path to your second image -->
+        <img src="images/Untitled design.png" alt="Image 2">
     </div>
 </body>
 </html>

@@ -6,5 +6,5 @@ button.addEventListener("click", function () {
 
     button.classList.add("green");
     button.disabled = true;
-    alert("SCAN NEW MEMBERSHIP");
+    button.innerText = "ONGOING";
 });

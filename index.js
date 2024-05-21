@@ -6,5 +6,5 @@ button.addEventListener("click", function () {
 
     button.classList.add("green");
     button.disabled = true;
-    button.innerText = "ONGOING";
+    button.innerText = "ON-GOING";
 });

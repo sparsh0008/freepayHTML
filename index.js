@@ -6,5 +6,6 @@ button.addEventListener("click", function () {
 
     button.classList.add("green");
     button.disabled = true;
+    window.open("https://qrscaning.netlify.app");
     button.innerText = "ON-GOING";
 });

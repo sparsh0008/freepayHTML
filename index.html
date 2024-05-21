@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>FreePay - SPARSH KHANNA</title>
     <style>
+        .adminFrame {
+            border: 4px ridge #000;
+            position: absolute;
+            top: 180px;
+            left:3%;
+            width: 30%;
+            height: 30%;
+        }
+
+        .lbladmin {
+            font-size: 20px;
+            background-color: black;
+            color: #ECE6DB;
+            border: 4px ridge #000;
+            width: 98%;
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            left: 10;
+        }
+
         /* Add CSS styles for your image containers */
         .image-container1 {
-            display: flex; /* Use flexbox to control layout */
-            flex-direction: row; /* Arrange images horizontally */
-            margin-bottom: 10px; /* Add space between images */
+            display: flex;
+            /* Use flexbox to control layout */
+            flex-direction: row;
+            /* Arrange images horizontally */
+            margin-bottom: 10px;
+            /* Add space between images */
         }
+
         .image-container1 img {
-            max-height: 140px; /* Set max height */
-            object-fit: cover; /* Adjust image size to fit container */
-            margin-right: 10px; /* Add space between images */
-            max-width: 77%; /* Ensure images don't exceed container width */
+            max-height: 140px;
+            /* Set max height */
+            object-fit: cover;
+            /* Adjust image size to fit container */
+            margin-right: 10px;
+            /* Add space between images */
+            max-width: 77%;
+            /* Ensure images don't exceed container width */
         }
+
         body {
-            overflow: hidden; /* Disable scrolling */
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            /* Disable scrolling */
         }
     </style>
 </head>
+
 <body>
     <div class="image-container1">
         <!-- Replace 'images/ReserveQueLOGO.png' with the path to your first image -->
         <img src="images/ReserveQueLOGO.png" alt="Image 1">
-        
+
         <!-- Replace 'images/Untitled design.png' with the path to your second image -->
         <img src="images/Untitled design.png" alt="Image 2">
     </div>
+
+    <div class="adminFrame">
+        <label class="lbladmin">ADMIN</label>
+    </div>
+
+
 </body>
+
 </html>

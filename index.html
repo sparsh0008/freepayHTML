@@ -10,7 +10,7 @@
             border: 4px ridge #000;
             position: absolute;
             top: 180px;
-            left:3%;
+            left: 3%;
             width: 30%;
             height: 40%;
         }
@@ -31,7 +31,7 @@
             border: 4px ridge #000;
             position: absolute;
             top: 180px;
-            left:36%;
+            left: 36%;
             width: 30%;
             height: 40%;
         }
@@ -52,7 +52,7 @@
             border: 4px ridge #000;
             position: absolute;
             top: 180px;
-            left:69%;
+            left: 69%;
             width: 27%;
             height: 73%;
         }
@@ -73,7 +73,7 @@
             border: 4px ridge #000;
             position: absolute;
             top: 70%;
-            left:3%;
+            left: 3%;
             width: 30%;
             height: 27%;
         }
@@ -94,7 +94,7 @@
             border: 4px ridge #000;
             position: absolute;
             top: 70%;
-            left:36%;
+            left: 36%;
             width: 30%;
             height: 27%;
         }
@@ -110,6 +110,7 @@
             top: 0px;
             left: 10;
         }
+
         .membutton {
             font-size: 20px;
             width: 40%;
@@ -175,8 +176,19 @@
 
     <div class="membershipFrame">
         <label class="lblmembership">MEMBERSHIP CARD</label>
-        <button class="membutton">SCAN NEW</button>
+        <button class="membutton" id="btn">SCAN NEW</button>
     </div>
 </body>
+
+<script>
+    // Get the button element
+    var button = document.getElementById("btn");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", function () {
+        // Show an alert when the button is clicked
+        alert("SCAN NEW MEMBERSHIP");
+    });
+</script>
 
 </html>
